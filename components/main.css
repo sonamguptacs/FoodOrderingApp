@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.header {
+  padding: 4px 20px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.main-container {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 200px);
+  overflow: auto;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  background-color: #000;
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
