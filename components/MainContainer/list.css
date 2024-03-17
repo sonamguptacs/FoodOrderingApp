@@ -1,0 +1,34 @@
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.restaurant-card {
+  margin-bottom: 10px;
+  border: 1px solid;
+  height: 250px;
+  width: 210px;
+}
+
+.food-image {
+  height: 180px;
+  width: 100%;
+}
+
+.details {
+  padding: 5px 10px;
+}
+
+.restaurant-name {
+  color: brown;
+}
+
+.ratings {
+  color: green;
+}
+
+.cuisines {
+  color: chocolate;
+  font-style: italic;
+}
