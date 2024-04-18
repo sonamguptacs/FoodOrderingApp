@@ -12,7 +12,7 @@ export const RestaurantCard = (props) => {
         <div className="restaurant-name">{props.restaurant.info.name}</div>
         <div className="ratings">{props.restaurant.info.avgRating}</div>
         <div className="cuisines">
-          {props.restaurant.info.cuisines.join(',')}
+          {props.restaurant.info.cuisines.join(', ')}
         </div>
       </div>
     </div>

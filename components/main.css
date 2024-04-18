@@ -23,6 +23,10 @@ body {
   width: 50px;
 }
 
+.body {
+  height: calc(100vh - 118px);
+}
+
 .main-container {
   margin: 20px;
 }
