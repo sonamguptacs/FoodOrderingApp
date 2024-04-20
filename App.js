@@ -7,6 +7,7 @@ import { Cart } from "./components/Pages/Cart";
 import About from "./components/Pages/About";
 import SignIn from "./components/Pages/SignIn";
 import Contact from "./components/Pages/Contact";
+import Menu from "./components/Pages/Menu";
 
 
 const App = () => {
@@ -32,6 +33,9 @@ const appRouter = createBrowserRouter([
         },{
             path: '/contact',
             element: <Contact/>
+        },{
+            path: '/restaurant/menu/:id',
+            element: <Menu />
         }]
     },
     

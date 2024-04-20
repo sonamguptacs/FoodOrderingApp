@@ -25,6 +25,7 @@ body {
 
 .body {
   height: calc(100vh - 118px);
+  overflow: auto;
 }
 
 .main-container {
@@ -40,4 +41,39 @@ body {
   bottom: 0;
   position: sticky;
   width: 100%;
+}
+
+.menu-list {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.veg-icon {
+  height: 0.1px;
+  width: 0.1px;
+  border: 10px solid green;
+  border-radius: 50%;
+}
+
+.non-veg-icon {
+  height: 0.1px;
+  width: 0.1px;
+  border: 10px solid red;
+  border-radius: 50%;
+}
+
+.menupage-card {
+  > div {
+    margin: 10px auto;
+  }
+}
+
+.food-desc {
+  font-size: 12px;
+  width: 200px;
+  overflow-wrap: break-word;
 }

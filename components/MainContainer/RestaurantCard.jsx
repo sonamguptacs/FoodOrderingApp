@@ -1,6 +1,7 @@
 import React from 'react'
 
 export const RestaurantCard = (props) => {
+  console.log(props.restaurant)
   return (
     <div className="restaurant-card">
       <img

@@ -16,7 +16,7 @@ export const Header = () => {
         <Link to="/cart">
           <li>Cart</li>
         </Link>
-        <Link to="sign-in">
+        <Link to="/sign-in">
           <li>Sign In</li>
         </Link>
       </ul>
