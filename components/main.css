@@ -77,3 +77,8 @@ body {
   width: 200px;
   overflow-wrap: break-word;
 }
+
+.item-name {
+  width: 200px;
+  overflow-wrap: break-word;
+}

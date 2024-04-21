@@ -11,7 +11,7 @@ const Menu = () => {
   const fetchMenu = async () => {
     try {
       const response = await fetch(
-        `https://corsproxy.io/?https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.96340&lng=77.58550&restaurantId=${id}&catalog_qa=undefined&isMenuUx4=true&submitAction=ENTER`,
+        `https://proxy.cors.sh/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.96340&lng=77.58550&restaurantId=${id}&catalog_qa=undefined&isMenuUx4=true&submitAction=ENTER`,
       )
       const json = await response.json()
       console.log(json.data.cards[2]?.card?.card)
@@ -35,7 +35,7 @@ const Menu = () => {
         <RestaurantCard restaurant={data} />
       </div>
       <div className="menu-list">
-        {menu.map((item) => (
+        {menu?.map((item) => (
           <MenuCard item={item} />
         ))}
       </div>
