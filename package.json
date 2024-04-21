@@ -2,7 +2,6 @@
   "name": "foodcravings",
   "version": "1.0.0",
   "description": "Food Ordering App",
-  "main": "index.html",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
